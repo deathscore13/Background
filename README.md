@@ -11,10 +11,10 @@
 ## Пример
 **bg.php**:
 ```php
-if ($argb[0] !== 123)
+if (isset($argb[5]))
     exit(); // неправильное завершение
 
-if (isset($argb[1]))
+if ($argb[5] === 123)
     Background::exit(); // правильное завершение
 
 // вывод значений $argb
