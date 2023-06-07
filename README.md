@@ -12,7 +12,7 @@
 **bg.php**:
 ```php
 if ($argb[0] !== 123)
-    exit(); // неправильное завершение, функции добавленные в register_shutdown_function не выполнятся
+    exit(); // неправильное завершение
 
 if (isset($argb[1]))
     Background::exit(); // правильное завершение
