@@ -5,7 +5,7 @@
 
 <br><br>
 ## Ограничения PHP
-1. Вам придётся использовать `Background::exit()` вместо `exit()` и `die()`, иначе функции добавленные в [register_shutdown_function](https://www.php.net/manual/ru/function.register-shutdown-function.php), а также файлы и функции добавленные в `Background::register()` не будет выполняться
+1. Вам придётся использовать `Background::exit()` вместо `exit()` и `die()`, иначе функции добавленные в [register_shutdown_function](https://www.php.net/manual/ru/function.register-shutdown-function.php), а также файлы и функции добавленные в `Background::register()` не будут выполняться
 
 <br><br>
 ## Пример
